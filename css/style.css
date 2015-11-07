@@ -17,6 +17,55 @@ span#signin{
 	color: #fff;
 }
 
+.midbar {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 55px;
+	background-color: #BB1919;
+}
+
+.midbar p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 2.6em;
+	font-family: Arial, Helvetica, freesans, sans-serif; 
+	padding: 7px 0 0 180px;
+}
+
+.lowermidbar {
+	height: 27px;
+	margin: 0 auto;
+	width: 1016px;
+	padding-top: 10px;
+}
+
+span.lowermidbartextspan {
+	border-right: 1px solid #AA3939;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+.lowermidbar li {
+	float: left;
+	list-style: none;
+	font-weight: bold;
+	font-size: 0.8em;
+	/*margin-top: 3px;*/
+}
+
+.lowermidbar li:hover {
+	float: left;
+	list-style: none;
+	font-weight: bold;
+	font-size: 0.8em;
+	border-bottom: 5px solid #fff;
+	height: 22px;
+}
+
+
+
 #signindiv {
 	margin-left: 10px;
 	padding: 7px 82px 0 0;
@@ -56,13 +105,20 @@ span#signin{
 
 #searchdiv {
 	float: left;
-	padding: 7px 5px;
+	padding: 8px 5px;
 }
 
 #searchdiv input {
-height: 20px;
-width: 195px;
+height: 22px;
+width: 192px;
 margin: 0 0 0 8px;
+border: none;
+padding-left: 8px;
+font-weight: bold;
+color: black;
+background-image: url("images/magnify.png");
+background-repeat: no-repeat;
+background-position: right center;
 }
 
 ul {
@@ -75,9 +131,19 @@ a {
 	color: #fff;
 }
 
+p {
+	margin: 0;
+	padding: 0;
+}
+
 .fixedwidth {
 	width: 990px;
 	margin: 0 auto;
+}
+
+.fixedwidth2 {
+	width: 100%;
+	background-color: #A91717
 }
 
 .logodiv {
