@@ -19,8 +19,7 @@ span#signin{
 
 #signindiv {
 	margin-left: 10px;
-	padding-top: 7px;
-	padding-right: 82px;
+	padding: 7px 82px 0 0;
 	float: left;
 	border-right: 1px solid gray;
 	height: 34px;
@@ -40,9 +39,7 @@ span#signin{
 	font-size: 0.8em;
 	float: left;
 	border-right: 1px solid gray;
-	padding-right: 16px;
-	padding-left: 15px;
-	padding-top: 13px;
+	padding: 13px 16px 0 15px;
 	height: 28px;
 }
 
@@ -53,10 +50,19 @@ span#signin{
 	font-weight: bold;
 	font-size: 0.8em;
 	float: left;
-	padding-right: 16px;
-	padding-left: 15px;
-	padding-top: 13px;
+	padding: 13px 16px 0 15px;
 	height: 23px;
+}
+
+#searchdiv {
+	float: left;
+	padding: 7px 5px;
+}
+
+#searchdiv input {
+height: 20px;
+width: 195px;
+margin: 0 0 0 8px;
 }
 
 ul {
@@ -76,8 +82,7 @@ a {
 
 .logodiv {
 	height: 33px;
-	padding-top: 8px;
+	padding: 8px 10px 0 0;
 	float: left;
 	border-right: 1px solid gray;
-	padding-right: 10px;
 }
