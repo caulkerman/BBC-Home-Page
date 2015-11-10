@@ -1,3 +1,7 @@
+html {
+	background-color: #E7E8E1;
+}
+
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, freesans, sans-serif;
@@ -109,16 +113,16 @@ span.lowermidbartextspan {
 }
 
 #searchdiv input {
-height: 22px;
-width: 192px;
-margin: 0 0 0 8px;
-border: none;
-padding-left: 8px;
-font-weight: bold;
-color: black;
-background-image: url("images/magnify.png");
-background-repeat: no-repeat;
-background-position: right center;
+	height: 22px;
+	width: 192px;
+	margin: 0 0 0 8px;
+	border: none;
+	padding-left: 8px;
+	font-weight: bold;
+	color: black;
+	background-image: url("images/magnify.png");
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 ul {
@@ -155,12 +159,63 @@ p {
 
 .date {
 	float: right;
-	margin: 20px 30px 0 0;
+	margin: 27px 100px 0 0;
 	/*font-weight: bold;*/
-	font-size: 1.25em;
+	font-size: 1.3em;
 	color: #fff;
 }
 
 .break {
 	clear: left;
+}
+
+.fixedwidth3 {
+	width: 95%;
+	margin-left: 40px;
+}
+
+.image-container {
+	width: 60%;
+}
+
+#wadaimage {
+	background-image: url("images/wada-commission.jpg");
+	height: 450px;
+	width: 100%;
+	margin: 20px 20px 20px 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#wadaimage-h1-div {
+	width: 95%;
+	margin: 300px 0 0 20px;
+	display: block;
+	font-size: 2.2em;
+	font-weight: bold;
+	
+}
+
+#lesser-wada-link {
+	width: 75%;
+	margin: 10px 20px;
+	display: block;
+	font-size: 1em;
+	
+}
+
+.seoulimage-container {
+	width: 25%;
+	float: left;
+}
+
+#seoulimage {
+	background-image: url("images/seoul.jpg");
+	height: 400px;
+	width: 100%;
+	margin: 20px 20px 20px 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*float: left;*/
 }
